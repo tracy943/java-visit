@@ -13,5 +13,12 @@ $(document).ready(function () {
         field.prev().css( "color", "red" );
       }
     });
+
+    // var regex = [A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,};
+    //
+    // if(!regex.test($mail)){
+    //   console.log("Enter a valid email.");
+    //   return false;
+    // }
   });
 });
